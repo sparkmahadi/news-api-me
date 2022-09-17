@@ -17,7 +17,7 @@ const displayNews = async(sliceNumber) =>{
     const newsArray = data.articles;
     const slicedArray = newsArray.slice(0,sliceNumber);
     slicedArray.forEach(articles => {
-    const card = document.createElement('div');
+      const card = document.createElement('div');
     card.classList.add('col');
     card.innerHTML = `
     <div class="card glass">
